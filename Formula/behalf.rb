@@ -11,10 +11,10 @@ class Behalf < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/potatobeyonddefeat/behalf/releases/download/v#{version}/behalf-darwin-arm64.tar.gz"
-      sha256 "PLACEHOLDER_ARM64_SHA256"
+      sha256 "64f55d830ac1d5eebe54a27295d4b8f49c8ece41ee6ab2b8184fac32bb7d9065"
     else
       url "https://github.com/potatobeyonddefeat/behalf/releases/download/v#{version}/behalf-darwin-x64.tar.gz"
-      sha256 "PLACEHOLDER_X64_SHA256"
+      sha256 "3b588d8d4d8406f144100f0bbcdee3538ed016587619ebc8a862290deaaebff7"
     end
   end
 
