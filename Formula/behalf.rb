@@ -7,7 +7,7 @@ class Behalf < Formula
   homepage "https://behalfid.com"
   url "https://registry.npmjs.org/@behalfid/cli/-/cli-0.2.0.tgz"
   sha256 "a69cfdf9bf2fafb567472e15343f1dfad53a846a6b9156aa792ebe8365f900fa"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   depends_on "node"
