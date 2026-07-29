@@ -6,17 +6,17 @@
 class Behalf < Formula
   desc "Official CLI for BehalfID - agent permission management"
   homepage "https://behalfid.com"
-  version "0.2.15"
+  version "0.2.16"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/BehalfID/behalf/releases/download/v0.2.15/behalf-darwin-arm64.tar.gz"
-      sha256 "939b3ed9a31ddd308f313f43f63feca29310d14469a051bf9de94c9b7555fa3a"
+      url "https://github.com/BehalfID/behalf/releases/download/v0.2.16/behalf-darwin-arm64.tar.gz"
+      sha256 "a30efb82c9b0d8a19f05f10c86b30d2add5e51a45ae01f13118c89a28cae6fe4"
     end
     on_intel do
-      url "https://github.com/BehalfID/behalf/releases/download/v0.2.15/behalf-darwin-x64.tar.gz"
-      sha256 "1507fdc37ce624d1e5ea3c93b9eb5d3ecd1b0e43314ea5977a8b651b4f756092"
+      url "https://github.com/BehalfID/behalf/releases/download/v0.2.16/behalf-darwin-x64.tar.gz"
+      sha256 "80708cefb588094a59608213a6d82c4ebea9767b5516c71c938cc6d32ab7f98f"
     end
   end
 
